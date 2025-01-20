@@ -10,10 +10,130 @@
     src: url(../fonts/outfit/Outfit-VariableFont_wght.ttf);
 }
 
+body {
+    background-color: #F3E5D8;
+}
+
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'young';
+    font-weight: normal;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+h2 {
+    font-family: 'young';
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'outfit';
+    color: #7C405A;
+    font-weight: bold;
+    padding-bottom: 7px;
+    font-size: 1em;
+}
+
+p {
+    font-family: 'outfit';
+    font-size: .7em;
+}
+
+div#banner {
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    padding: 28px;
+    border-radius: 15px 15px 0 0 ;
+}
+
+div#banner > p {
+    padding-bottom: 20px;
+}
+
+article {
+    background-color: #FFF7FC;
+    padding: 20px;
+    width: 440px;
+    border-radius: 10px;
+}
+
+ul > li {
+    margin-left: 20px;
+    padding: 5px;
+    font-family: 'outfit';
+    color: #5F5657;
+    font-size: .7em;
+}
+
+article > ul {
+    color:#7C405A;
+    font-size: .8em;
+}
+
+div#ingredients {
+    width: 500px;
+    background-color: white;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+div#ingredients > h2 {
+    color: #824942;
+    margin-left: 14px;
+    padding: 8px;
+    font-size: 1.1em;
+}
+
+div#ingredients > ul {
+    list-style-type: disc;
+    font-size: .8em;
+}
+
+div#ingredients > ul > li {
+    padding: 3px;
+    margin-left: 35px; 
+}
+
+div#instructions {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    border-top: 1px solid hsl(30, 18%, 87%);
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+div#instructions > h2 {
+    font-family: 'young';
+    font-size: 1em;
+    color: #784740;
+    margin-left: 20px;
+}
+
+div#instructions > ol {
+    font-family: 'outfit';
+    font-size: .6em;
+    padding-left: 30px;
+    width: 400px;
+}
+
+div#instructions > ol::marker {
+    font-size: 8px;
+    color: white;
+  }
+
+
 
 
 
