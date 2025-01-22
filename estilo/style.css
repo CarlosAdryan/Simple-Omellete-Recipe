@@ -52,7 +52,7 @@ p {
 div#banner {
     width: 500px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 60px;
     background-color: white;
     padding: 28px;
     border-radius: 15px 15px 0 0 ;
@@ -99,6 +99,7 @@ div#ingredients > h2 {
 div#ingredients > ul {
     list-style-type: disc;
     font-size: .8em;
+    
 }
 
 div#ingredients > ul > li {
@@ -110,28 +111,83 @@ div#instructions {
     background-color: white;
     width: 500px;
     margin: auto;
-    border-top: 1px solid hsl(30, 18%, 87%);
+    padding: 20px;
     border-bottom: 1px solid hsl(30, 18%, 87%);
+    border-top: 1px solid hsl(30, 18%, 87%);
 }
 
 div#instructions > h2 {
     font-family: 'young';
     font-size: 1em;
     color: #784740;
-    margin-left: 20px;
 }
 
 div#instructions > ol {
     font-family: 'outfit';
-    font-size: .6em;
-    padding-left: 30px;
+    font-size: .9em;
     width: 400px;
+    margin: auto;
+    padding: 10px;
+    color: #5F5657;
 }
 
-div#instructions > ol::marker {
-    font-size: 8px;
-    color: white;
+div#instructions > ol > li {
+    padding: 3px;
+}
+
+div#instructions > ol > li::marker {
+    font-size: 11px;
+    color: #784740;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    margin: auto;
   }
+
+  div#nutrition {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 100px;
+    border-radius: 0px 0px 15px 15px ;
+  }
+
+div#nutrition h2{
+    font-family: 'young';
+    color: #784740;
+    font-size: 1em;
+    padding-left: 15px;
+    padding: 20px;
+}
+
+div#nutrition p {
+    padding-left: 20px;
+    font-size: .7em;
+    padding-bottom: 15px;
+    color: #5F5657;
+}
+
+div#nutrition ul {
+    padding-bottom: 20px;
+}
+
+div#nutrition  ul  li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    width: 450px;
+    padding: 8px;
+    text-align: left;
+}
+
+div#nutrition ul li:last-child {
+    border: none;
+}
+
+span {
+    color: #9E6657;
+    font-weight: bolder;
+}
 
 
 
