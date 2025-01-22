@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+
+    body {
+        height: 100vh;
+    }
+
+    div#banner {
+        border-radius: 0;
+        margin-top: 0px;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        border-radius: 0px;
+    }
+
+
+
+    div#nutrition {
+        border-radius: 0px ;
+    }
+}
